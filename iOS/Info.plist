@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Cropper.iOS</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.mikebluestein.Cropper.iOS</string>
+	<string>Cropper</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -36,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleName</key>
+	<string>Cropper</string>
+	<key>CFBundleIdentifier</key>
+	<string>info.yunnxx.cropper</string>
 </dict>
 </plist>

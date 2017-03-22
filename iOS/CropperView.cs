@@ -1,14 +1,17 @@
 using UIKit;
 using CoreGraphics;
+using Foundation;
+using System;
 
 namespace Cropper.iOS
 {
+	[Register("CropperView")]
     public class CropperView : UIView
     {
         CGPoint origin;
         CGSize cropSize;
 
-        public CropperView ()
+		public CropperView (IntPtr handle) : base(handle)
         {
             origin = new CGPoint (100, 100);
             cropSize = new CGSize (200, 200);
